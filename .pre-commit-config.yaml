@@ -1,0 +1,18 @@
+# Please update dev-requirements accordingly when updating ruff versions.
+repos:
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: 'v0.4.1'
+    hooks:
+      - id: ruff
+        args: [--fix]
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.6.0
+    hooks:
+      - id: nbstripout
+
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.16.8
+    hooks:
+      - id: typos
+        args: []
