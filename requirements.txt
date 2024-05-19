@@ -1,5 +1,6 @@
 streamlit
-pandas
-numpy
-fpdf
 torch
+Pillow
+fpdf
+streamlit-drawable-canvas
+numpy
